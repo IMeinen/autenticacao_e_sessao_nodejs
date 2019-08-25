@@ -1,6 +1,6 @@
 import * as Yup from 'yup';
 import User from '../models/User';
-
+/* controle de usuario e validaçoes */
 class UserController {
   async store(req, res) {
     const schema = Yup.object().shape({
