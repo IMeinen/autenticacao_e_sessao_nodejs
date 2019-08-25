@@ -1,3 +1,4 @@
+/* configuraço do container que contem o banco postgres */
 module.exports = {
   dialect: 'postgres',
   host: 'localhost',
