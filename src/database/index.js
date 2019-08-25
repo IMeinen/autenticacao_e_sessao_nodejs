@@ -5,7 +5,7 @@ import databaseConfig from '../config/database';
 import User from '../app/models/User';
 
 const models = [User];
-
+/* configuração para a conexão na base de dados*/
 class Database {
   constructor() {
     this.connection = new Sequelize(databaseConfig);
